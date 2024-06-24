@@ -14235,3 +14235,14 @@ h3 + .small, h3 + small {
 		margin-top: 228px;
 	}
 }
+.carousel-item {
+	display: flex;
+	align-items: center;
+  }
+  .carousel-image {
+	flex: 1;
+  }
+  .carousel-content {
+	flex: 1;
+	padding: 20px;
+  }
